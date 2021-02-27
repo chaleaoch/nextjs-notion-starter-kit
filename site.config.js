@@ -1,30 +1,30 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'af9b8f9ed1024f5abc517b3efcdcd557',
+  rootNotionPageId: '178eb4d8c8524ac69ddd8852c31f9400',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: af9b8f9ed1024f5abc517b3efcdcd557,
+  rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
+  name: 'chaleaoch',
   domain: '127.0.0.1:8080',
-  author: 'Travis Fischer',
+  author: 'chaleaoch',
 
   // open graph metadata (optional)
   description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  socialImageTitle: 'chaleaoch',
+  socialImageSubtitle: 'Hello World!',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'chaleaoch',
+  github: 'chaleaoch',
+//   linkedin: 'fisch2',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://cdn.jsdelivr.net/gh/chaleaoch/CDN@main/images/1614433905922-1614433905921-头像.png',
+  defaultPageCover: 'https://cdn.jsdelivr.net/gh/chaleaoch/CDN@main/images/1614433723590-1614433723538.png',
   defaultPageCoverPosition: 0.5,
 
   // image CDN host to proxy all image requests through (optional)
@@ -32,7 +32,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: "chaleaoch/CDN",
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
