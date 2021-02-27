@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
+  domain: '127.0.0.1:8080',
   author: 'Travis Fischer',
 
   // open graph metadata (optional)
